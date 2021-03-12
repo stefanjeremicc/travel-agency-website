@@ -1005,3 +1005,52 @@ a {
       margin-right: 1.4rem
   }
   }
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(47,85,114, 0.3);
+  padding: 10px 0;
+}
+
+.header__btn-container {
+    float: right;
+  }
+
+.header__logo {
+    position: absolute;
+    background-color: #2f5572;
+    padding: 1.5625rem 2.1875rem;
+    top: 0;
+  }
+
+.primary-nav--pull-right {
+    float: right;
+  }
+
+.primary-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+.primary-nav ul::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+.primary-nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+  }
+
+.primary-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    padding: 12px 0;
+    cursor: pointer;
+  }
